@@ -15,5 +15,9 @@ require 'pry'
   }
 
 def remove_strawberry(contacts)
-
+    contacts[:Freddy Mercury].each do |person,data|
+        if data == "favorite_ice_cream_flavors"
+            favorite_ice_cream_flavors.unshift
+        end
+    end
 end
